@@ -1,1 +1,30 @@
 https://docs.google.com/spreadsheets/d/1xnGBArerIa4Jwt5IzZNZlagvj_T8HTf_H8jk1QnMaoI/edit#gid=0
+Общая информация							
+Проект			https://currency.com/				
+Вид тестирования			Sanity			
+Окружение			Windows 10 Домашняя 64 bit				
+Браузер			Mozilla Firefox, 102.0.1 (64 бита)				
+#	Titlle	Steps	Inputs	ER	AR	Status	Bug link
+1	Открыть сайт	1) Открыть сайт  https://currency.com/		Сайт открывается		Pass	
+2	Переходана вкладку при нажатии кнопки "Products"	1) Открыть сайт  https://currency.com/  2) Нажать на кнопку "Products"		Переход на вкладку "Products"		Pass	
+3	Переход на вкладку при нажатии кнопки "Markets"	1) Открыть сайт  https://currency.com/  2) Нажать на кнопку "Markets"		Переход на вкладку "Markets"		Pass	
+4	Переход на вкладку при нажатии кнопки "News&Features"	1) Открыть сайт  https://currency.com/  2) Нажать на кнопку "News&Features"		Переход на вкладку "News&Features"		Pass	
+5	Переход на вкладку при нажатии кнопки "Learn to trade"	1) Открыть сайт  https://currency.com/  2) Нажать на кнопку "Learn to trade"		Переход на вкладку "Learn to trade"		Pass	
+6	Переход на вкладку при нажатии кнопки "About Us"	1) Открыть сайт  https://currency.com/  2) Нажать на кнопку "About Us"		Переход на вкладку "About Us"		Pass	
+7	Возможность ввода текста в поле "Search"	1) Открыть сайт  https://currency.com/  2) Нажать на иконку "Search"		Ввод данных в поле поиска		Pass	
+8	Смена языка по иконке справа сверху 	1) Открыть сайт  https://currency.com/  2) Нажать на кнопку "EN"		Возможность смены языка		Pass	
+9	Регистрация на сайте	1) Открыть сайт  https://currency.com/  2) Нажать на кнопку "Sign Up"		Открывается окно регистрации		Pass	
+10	Проверка ввода логина на сайте	1) Открыть сайт  https://currency.com/  2) Нажать на кнопку "Login"		Открывается окно логина		Pass	
+11	Переход по вкладке поля с валютой 	1) Открыть сайт  https://currency.com/  2) Нажать на поле-slide с данными о валюте (сверху в Хедерах)		Переход по ссылке 		Pass	
+12	Переход по вкладкам возле диаграммы 	1) Открыть сайт  https://currency.com/  2) Нажать поочередно кнопки Cryptocurrencies,Indices,Commodities,Shares,Сurrencies		Данные диаграммы меняется в зависимости от выбранных значений		Pass	
+13	Работа иконки "Сообщение" справа снизу	1) Открыть сайт  https://currency.com/  2) Нажать иконку "Сообщение"           3) Выбрать иконку "Liveсhat"		Переход по ссылке		Pass	
+14	Работа иконки "Сообщение" справа снизу	"1) Открыть сайт  https://currency.com/  2) Нажать иконку ""Сообщение"" 
+3) Выбрать иконку ""Viber"""		Переход по ссылке	Кнопка "Viber" не активна	Fail	Bug №4 
+15	Работа иконки "Сообщение" справа снизу	"1) Открыть сайт  https://currency.com/  2) Нажать иконку ""Сообщение""
+ 3) Выбрать иконку ""Telegram"""		Переход по ссылке 		Pass	
+16	Работа иконки "Сообщение" справа снизу	"1) Открыть сайт  https://currency.com/  2) Нажать иконку ""Сообщение""
+3) Выбрать иконку ""Facebook"""		Переход по ссылке 		Pass	
+17	Работа кнопки "Dowmload on the App Store"	1) Открыть сайт  https://currency.com/  2) Нажать кнопку "Dowmload on the App Store" 		Переход по ссылке 		Pass	
+18	Работа кнопки "Get it on Google Play"	1) Открыть сайт  https://currency.com/  2) Нажать кнопку "Get it on Google Play"		Переход по ссылке 		Pass	
+19	Работа кнопки "Explore Web Platform"	1) Открыть сайт  https://currency.com/  2) Нажать кнопку "Explore Web Platform"		Переход по ссылке 		Pass	
+20	Работа кнопки "QR code"	1) Открыть сайт  https://currency.com/  2) Нажать кнопку "QR code"		Открывается QR-code		Pass	
